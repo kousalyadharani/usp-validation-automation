@@ -1,0 +1,5 @@
+[
+ {"name":"controller connected","path":"device.status","op":"equals","expected":"connected"},
+ {"name":"firmware reported","path":"device.firmware","op":"truthy","expected":true},
+ {"name":"telemetry endpoint","path":"telemetry.transport","op":"equals","expected":"mqtt"}
+]
